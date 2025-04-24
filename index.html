@@ -130,8 +130,8 @@
       snowflake.className = 'snowflake';
       snowflake.textContent = '❄️';
       snowflake.style.left = Math.random() * 40 + 'vw';
-      snowflake.style.animationDuration = (Math.random() * 5 + 5) + 's';
-      snowflake.style.fontSize = (Math.random() * 10 + 10) + 'px';
+      snowflake.style.animationDuration = (Math.random() * 6 + 6) + 's';
+      snowflake.style.fontSize = (Math.random() * 20 + 20) + 'px';
       document.body.appendChild(snowflake);
     }
   </script>
@@ -159,31 +159,6 @@
     <a href="#">• Tombol •</a>
     <a href="#">• Tombol •</a>
     <a href="#">• Tombol •</a>
-  </div>
-
-    <div class="calculator-container">
-    <div class="calculator">
-      <input type="text" id="calc-display" disabled />
-      <div class="buttons">
-        <button onclick="appendValue('7')">7</button>
-        <button onclick="appendValue('8')">8</button>
-        <button onclick="appendValue('9')">9</button>
-        <button onclick="appendValue('/')">/</button>
-        <button onclick="appendValue('4')">4</button>
-        <button onclick="appendValue('5')">5</button>
-        <button onclick="appendValue('6')">6</button>
-        <button onclick="appendValue('*')">*</button>
-        <button onclick="appendValue('1')">1</button>
-        <button onclick="appendValue('2')">2</button>
-        <button onclick="appendValue('3')">3</button>
-        <button onclick="appendValue('-')">-</button>
-        <button onclick="appendValue('0')">0</button>
-        <button onclick="appendValue('.')">.</button>
-        <button onclick="calculate()">=</button>
-        <button onclick="appendValue('+')">+</button>
-        <button onclick="clearDisplay()" style="grid-column: span 4; background: #ffcccc;">C</button>
-      </div>
-    </div>
   </div>
   
   <div class="github-login">

@@ -125,8 +125,8 @@
     for (let i = 0; i < 50; i++) {
       let snowflake = document.createElement('div');
       snowflake.className = 'snowflake';
-      snowflake.textContent = '✨';
-      snowflake.style.left = Math.random() * 300 + 'vw';
+      snowflake.textContent = '❄️';
+      snowflake.style.left = Math.random() * 100 + 'vw';
       snowflake.style.animationDuration = (Math.random() * 5 + 5) + 's';
       snowflake.style.fontSize = (Math.random() * 40 + 40) + 'px';
       document.body.appendChild(snowflake);
@@ -143,52 +143,19 @@
   </div>
 
   <div class="video-container">
-    <video controls width="140">
+    <video controls width="440">
       <source src="https://files.catbox.moe/0xzk49.mp4" type="video/mp4">
       Browser Anda tidak mendukung tag video.
     </video>
   </div>
 
   <div class="links">
-    <a href="https://files.catbox.moe/9hc930.jpg">Link 1</a>
+    <a href="https://files.catbox.moe/9hc930.jpg">• Tombol •</a>
     <a href="#">• Tombol •</a>
     <a href="#">• Tombol •</a>
     <a href="#">• Tombol •</a>
     <a href="#">• Tombol •</a>
     <a href="#">• Tombol •</a>
-  </div>
-
-    <div class="links">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-    <a href="#">Link 4</a>
-    <a href="#">Link 5</a>
-    <a href="#">Link 6</a>
-  </div>
-
-  <div class="clock">
-    <div id="clock">00:00</div>
-  </div>
-
-  <div class="calculator">
-    <input id="display" readonly style="width: 200px; font-size: 18px; text-align: right;"><br>
-    <button onclick="addChar('1')">1</button>
-    <button onclick="addChar('2')">2</button>
-    <button onclick="addChar('3')">3</button>
-    <button onclick="addChar('+')">+</button><br>
-    <button onclick="addChar('4')">4</button>
-    <button onclick="addChar('5')">5</button>
-    <button onclick="addChar('6')">6</button>
-    <button onclick="addChar('-')">-</button><br>
-    <button onclick="addChar('7')">7</button>
-    <button onclick="addChar('8')">8</button>
-    <button onclick="addChar('9')">9</button>
-    <button onclick="addChar('*')">*</button><br>
-    <button onclick="clearDisplay()">C</button>
-    <button onclick="addChar('0')">0</button>
-    <button onclick="calculate()">=</button>
-    <button onclick="addChar('/')">/</button>
   </div>
 
   <div class="github-login">

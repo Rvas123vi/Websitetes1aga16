@@ -93,36 +93,7 @@
       0% { transform: translateY(0); }
       100% { transform: translateY(100vh); }
     }
-    /* Snow Animation */
-    .snowflake {
-      position: fixed;
-      top: -10px;
-      color: white;
-      font-size: 1em;
-      animation: fall linear infinite;
-      user-select: none;
-      z-index: 999;
-    }
-    @keyframes fall {
-      to {
-        transform: translateY(100vh);
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="led-background">
-    <!-- LED dots -->
-    <div class="led" style="left: 10%; animation-delay: 0s;"></div>
-    <div class="led" style="left: 30%; animation-delay: 2s;"></div>
-    <div class="led" style="left: 50%; animation-delay: 4s;"></div>
-    <div class="led" style="left: 70%; animation-delay: 6s;"></div>
-    <div class="led" style="left: 90%; animation-delay: 8s;"></div>
-  </div>
-  
-  <script>
-
-        /* Calculator styles */
+    /* Calculator styles */
     .calculator-container {
       display: flex;
       justify-content: center;
@@ -170,6 +141,36 @@
     <div class="led" style="left: 70%; animation-delay: 6s;"></div>
     <div class="led" style="left: 90%; animation-delay: 8s;"></div>
   </div>
+  
+    
+    /* Snow Animation */
+    .snowflake {
+      position: fixed;
+      top: -10px;
+      color: white;
+      font-size: 1em;
+      animation: fall linear infinite;
+      user-select: none;
+      z-index: 999;
+    }
+    @keyframes fall {
+      to {
+        transform: translateY(100vh);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="led-background">
+    <!-- LED dots -->
+    <div class="led" style="left: 10%; animation-delay: 0s;"></div>
+    <div class="led" style="left: 30%; animation-delay: 2s;"></div>
+    <div class="led" style="left: 50%; animation-delay: 4s;"></div>
+    <div class="led" style="left: 70%; animation-delay: 6s;"></div>
+    <div class="led" style="left: 90%; animation-delay: 8s;"></div>
+  </div>
+  
+  <script>
     
     // Snowflakes
     for (let i = 0; i < 50; i++) {

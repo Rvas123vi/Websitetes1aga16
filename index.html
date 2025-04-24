@@ -125,11 +125,11 @@
   <script>
     
     // Snowflakes
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 100; i++) {
       let snowflake = document.createElement('div');
       snowflake.className = 'snowflake';
       snowflake.textContent = '❄️';
-      snowflake.style.left = Math.random() * 10 + 'vw';
+      snowflake.style.left = Math.random() * 20 + 'vw';
       snowflake.style.animationDuration = (Math.random() * 6 + 6) + 's';
       snowflake.style.fontSize = (Math.random() * 20 + 20) + 'px';
       document.body.appendChild(snowflake);
